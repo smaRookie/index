@@ -187,7 +187,7 @@
 		<div class='photo-wrap' id="pw">
 
 			<div class="side side-front">
-				<p class="imgs"><img src="images1/{{img}}" ></p>
+				<p class="imgs"><img src="images1/{{img}}.jpg" ></p>
 				<p class="caption">{{title}}</p>
 			</div>
 			<div class="side side-black">
@@ -224,7 +224,7 @@
       	g('#wrap').innerHTML=html.join('');
       	rsort(random([0,data.length-1]));
       }
-	setTimeout(addPhotos,2000);
+	setTimeout(addPhotos,5000);
 //       addPhotos();
       //随机函数
       function random(rang){
