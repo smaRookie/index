@@ -224,7 +224,8 @@
       	g('#wrap').innerHTML=html.join('');
       	rsort(random([0,data.length-1]));
       }
-      addPhotos();
+	setTimeout(addPhotos,2000);
+//       addPhotos();
       //随机函数
       function random(rang){
       	var max=Math.max(rang[0],rang[1]);
